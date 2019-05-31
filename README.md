@@ -1,17 +1,17 @@
-# utilz
+### utilz
 Collection of small Python functions for converting images, evaluation metrics, logging, reporting and ...
 
-## Converting:
+#### Converting:
 
 * Tensor >> Numpy:
 * Numpy >> Image:
 
-## Logging:
+#### Logging:
 
-## Reporting:
+#### Reporting:
 
-## Metrics:
+#### Metrics:
 * PSNR: Computing Peak Signal-to-Noise Ratio between images
 * SSIM: Measuring the structural similarity between images (sightly different from matlab version)
 
-### 「®️」
+##### 「®️」
