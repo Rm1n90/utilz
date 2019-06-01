@@ -2,7 +2,7 @@
 Collection of helper Python, PyTorch functions:
 
 #### Mean & std:
-  * []()Computing mean and std of train dataset per channels. #PyTorch 
+  * [mean_std.py](https://github.com/Rm1n90/utilz/blob/master/mena_std.py) Computing mean and std of train dataset per channels. #PyTorch 
   
 #### Converting:
 * Tensor >> Numpy >> Image. #Pytorch
