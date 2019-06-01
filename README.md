@@ -1,2 +1,18 @@
-# utilz
-Collection of small Python functions for converting images, evaluation metrics, logging, reporting and ...
+### Utilz
+Collection of helper Python, PyTorch functions:
+
+#### Mean & std:
+  * [mean_std.py](https://github.com/Rm1n90/utilz/blob/master/mena_std.py): Computing mean and std of train dataset per channels. #PyTorch 
+  
+#### Converting:
+* Tensor >> Numpy >> Image. #Pytorch
+* RGB << >> YCbCr. #Python
+
+#### Normalizing:
+* Normalizing 4-dim or 3-dim tensor to [0, 1] , [0, 255], [-1, 1] 
+
+#### Metrics:
+* PSNR: Computing Peak Signal-to-Noise Ratio between images(sightly different from matlab version). #python
+* SSIM: Measuring the structural similarity between images(same as Matlab). #Python
+
+##### 「®️」
