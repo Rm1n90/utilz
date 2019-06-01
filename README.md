@@ -1,4 +1,4 @@
-### U tilz
+### Utilz
 Collection of helper Python, PyTorch functions:
 
 #### Mean & std:
