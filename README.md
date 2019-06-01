@@ -1,4 +1,4 @@
-### utilz
+### U tilz
 Collection of helper Python, PyTorch functions:
 
 #### Mean & std:
@@ -9,7 +9,7 @@ Collection of helper Python, PyTorch functions:
 * RGB << >> YCbCr. #Python
 
 #### Normalizing:
-* Normalizing 4-dim or 3-dim to [0, 1] , [0, 255], [-1, 1] 
+* Normalizing 4-dim or 3-dim tensor to [0, 1] , [0, 255], [-1, 1] 
 
 #### Metrics:
 * PSNR: Computing Peak Signal-to-Noise Ratio between images(sightly different from matlab version). #python
