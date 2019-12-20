@@ -1,5 +1,3 @@
-
-
 """
 computing the mean and the standard deviation per channel of any datasets with PyTorch
 """
@@ -13,7 +11,7 @@ from torchvision import transforms
 
 Path_to_Dataset = " "
 def mean_std(data):
-    count = 0
+    cnt = 0
     mean = torch.empty(3)
     std = torch.empty(3)
     # import pdb;
@@ -23,11 +21,11 @@ def mean_std(data):
         num_pixels = b * h * w
         _sum = torch.sum(data, dim=[0, 2, 3])
         square = torch.sum(data ** 2, dim=[0, 2, 3])
-        mean = (count * mean + _sum) / (cnt + num_pixels)
-        std = (count * std + square) / (cnt + num_pixels)
+        mean = (cnt * mean + _sum) / (cnt + num_pixels)
+        std = (cnt * std + square) / (cnt + num_pixels)
         std = torch.sqrt(std - mean ** 2)
 
-        count += num_pixels
+        cnt += num_pixels
         
     return mean, std 
 
